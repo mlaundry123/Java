@@ -8,9 +8,9 @@ function getComputerChoice(){
 }
 
 function checkWinner(playerSelection, computerSelection){
-    if(playerSelection == computerSelection)[
+    if(playerSelection == computerSelection){
         return "Tie";
-    ]
+    }
     else if(
         (playerSelection == "rock" && computerSelection == "scissors") ||
         (playerSelection == "scissors" && computerSelection == "paper") ||
